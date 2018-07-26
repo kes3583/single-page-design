@@ -1,4 +1,18 @@
 
+mkDir  -- make directory
+cd ~/MyProject -- change directory
+cd github/single-page-design
+
+touch Readme.txt -- create a file
+
+git status -- to have a look for status of the current repo
+git add Readme.txt
+git commit -m “Add Readme.txt” -- commit message
+
+git remote add origin https://github.com/username/myproject.git -- connect local to remote and assign the current repo on github as origin
+git remote -v -- list of the origin
+git push / git push origin master -- upload to remote git
+
 
 # single-page-design
 https://github.com/kes3583/single-page-design.git
@@ -18,6 +32,8 @@ git commit -m "이번 확정본에 대한 설명"
 git push origin master
 
 git remote add origin <원격 서버 주소>
+-- git remote add origin https://github.com/kes3583/single-page-design.git
+
 
 # Branch 가지치기 - test 후 master 가지로 돌아와 병합
 
