@@ -2,25 +2,29 @@
 mkDir  -- make directory
 cd ~/MyProject -- change directory
 cd github/single-page-design
+cd ../  -- 상위 디렉토리 
 
 touch Readme.txt -- create a file
 
 git status -- to have a look for status of the current repo
-git add Readme.txt
+git add Readme.txt -- add 
 git commit -m “Add Readme.txt” -- commit message
 
-git remote add origin https://github.com/username/myproject.git -- connect local to remote and assign the current repo on github as origin
+git remote add origin https://github.com/kes3583/kes3583.github.io.git -- connect local to remote and assign the current repo on github as origin
 git remote -v -- list of the origin
 git push / git push origin master -- upload to remote git
 
 
-# single-page-design
-https://github.com/kes3583/single-page-design.git
-git init - new git repository
-git clone /로컬/저장소/경로 or git clone 사용자명@호스트:/원격/저장소/경로
+# 프로젝트 폴더가 있을 경우 
+1. open terminal app
+2. go to your project directory 
+3. cd project/portfolio
+4. git remote add origin https://github.com/kes3583/kes3583.github.io.git -- connect local to remote and assign the current 
+5. git init - new git repository
+6. git clone /로컬/저장소/경로 or git clone 사용자명@호스트:/원격/저장소/경로
 
 ##work flow ##
-# local directory -add- #index(stage) -commit- #Head
+# local directory -1.add- #index(stage) -2.commit- #Head - 3. push
 
 #add - first
 git add <파일 이름>
