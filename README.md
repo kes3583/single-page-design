@@ -15,7 +15,7 @@ git remote -v -- list of the origin
 git push / git push origin master -- upload to remote git
 
 
-# 프로젝트 폴더가 있을 경우 
+# 로컬 프로젝트 폴더가 있을 경우 
 1. open terminal app
 2. go to your project directory 
 3. cd project/portfolio
