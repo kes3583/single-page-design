@@ -37,7 +37,7 @@ git commit -m "이번 확정본에 대한 설명"
 -- git remote add origin https://github.com/kes3583/single-page-design.git
 
 4.로컬 저장소의 HEAD
-git push origin master
+--git push origin master
 
 
 # Branch 가지치기 - test 후 master 가지로 돌아와 병합
