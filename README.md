@@ -17,26 +17,27 @@ git push / git push origin master -- upload to remote git
 
 # 로컬 프로젝트 폴더가 있을 경우 
 1. open terminal app
-2. go to your project directory 
-3. cd project/portfolio
-4. git remote add origin https://github.com/kes3583/kes3583.github.io.git -- connect local to remote and assign the current 
+2. go to your local project directory -$ cd project/portfolio
+3. user 설정 - git config - -global user.email “Your email address”
+4. 
 5. git init - new git repository
 6. git clone /로컬/저장소/경로 or git clone 사용자명@호스트:/원격/저장소/경로
 
 ##work flow ##
-# local directory -1.add- #index(stage) -2.commit- #Head - 3. push
+# local directory -1.add- to #index(stage) -2.commit- to #Head - 3. remote add origin 4. push
 
-#add - first
+1.add - first
 git add <파일 이름>
 
-#commit - 하지만 실제로 변경 내용을 확정하려면 아래 명령을 내려야 한답니다.하지만, 원격 저장소에는 아직 반영이 안 됐답니다.
+2.commit - 하지만 실제로 변경 내용을 확정하려면 아래 명령을 내려야 한답니다.하지만, 원격 저장소에는 아직 반영이 안 됐답니다.
 git commit -m "이번 확정본에 대한 설명"
 
-#로컬 저장소의 HEAD
-git push origin master
 
-git remote add origin <원격 서버 주소>
+3.git remote add origin <원격 서버 주소> -- 로컬저장소와 원격저장소 연결.
 -- git remote add origin https://github.com/kes3583/single-page-design.git
+
+4.로컬 저장소의 HEAD
+git push origin master
 
 
 # Branch 가지치기 - test 후 master 가지로 돌아와 병합
