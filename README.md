@@ -34,7 +34,8 @@ git commit -m "이번 확정본에 대한 설명"
 
 
 3.git remote add origin <원격 서버 주소> -- 로컬저장소와 원격저장소 연결.
--- git remote add origin https://github.com/kes3583/single-page-design.git
+
+-- git remote add origin https://github.com/kes3583/kes3583.github.io.git
 
 4.로컬 저장소의 HEAD
 --git push origin master
