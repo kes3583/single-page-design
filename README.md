@@ -27,7 +27,9 @@ git push / git push origin master -- upload to remote git
 # local directory -1.add- to #index(stage) -2.commit- to #Head - 3. remote add origin 4. push
 
 1.add - first
-git add <파일 이름>
+git add <파일 이름> -- 한개의 파일 
+git add .  -- 모든 파일 
+git add <foldername>/ -- 폴더
 
 2.commit - 하지만 실제로 변경 내용을 확정하려면 아래 명령을 내려야 한답니다.하지만, 원격 저장소에는 아직 반영이 안 됐답니다.
 git commit -m "이번 확정본에 대한 설명"
