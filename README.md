@@ -22,7 +22,7 @@ git push / git push origin master -- upload to remote git
 4. 
 5. git init - new git repository
 6. git clone /로컬/저장소/경로 or git clone 사용자명@호스트:/원격/저장소/경로
-
+-- git clone https://github.com/kes3583/javascript30.git
 ##work flow ##
 # local directory -1.add- to #index(stage) -2.commit- to #Head - 3. remote add origin 4. push
 
