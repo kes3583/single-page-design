@@ -19,6 +19,7 @@ git push / git push origin master -- upload to remote git
 1. open terminal app
 2. go to your local project directory -$ cd project/portfolio
 3. user 설정 - git config - -global user.email “Your email address”
+-- 이미 그 전에 repo 가 있다면 패스 그러나 로컬 커맨드 설정이 처음이면 이 설정을 해줌. 
 4. 
 5. git init - new git repository
 6. git clone /로컬/저장소/경로 or git clone 사용자명@호스트:/원격/저장소/경로
